@@ -1,0 +1,54 @@
+[
+  {
+    "name": "geen_bank_forceer_slack",
+    "selectie": ["Jannick","Collin","Wout","Jaimy","Sjoerd","Jorra","Tycho","Nord","Stijn","Xander"],
+    "training_default": 2,
+    "training_overrides": {"Tycho": 0},
+    "bonus_0": 30, "bonus_1": 10
+  },
+  {
+    "name": "structureel_tekort_cv",
+    "selectie": ["Jannick","Collin","Wout","Jaimy","Sjoerd","Pelle","Jorra","Tycho","Dinand","Stijn"],
+    "training_default": 2,
+    "training_overrides": {},
+    "bonus_0": 20, "bonus_1": 10
+  },
+  {
+    "name": "breed_haalbaar_16",
+    "selectie": ["Jannick","Collin","Wout","Jaimy","Sjoerd","Pelle","Jorra","Tycho","Nord","Dinand","Sietse","Stijn","Xander","Jens","Roef","Chris"],
+    "training_default": 1,
+    "training_overrides": {"Jannick": 2, "Wout": 0, "Nord": 0, "Chris": 2, "Sjoerd": 2},
+    "bonus_0": 20, "bonus_1": 10
+  },
+  {
+    "name": "halve_beperking_tekort_2ehelft",
+    "selectie": ["Jannick","Collin","Wout","Jaimy","Sjoerd","Pelle","Jorra","Tycho","Stijn","Xander"],
+    "training_default": 2,
+    "training_overrides": {},
+    "availability_overrides": {"Stijn": {"first": true, "second": false}, "Xander": {"first": true, "second": false}},
+    "bonus_0": 20, "bonus_1": 10
+  },
+  {
+    "name": "veel_wissels_tegelijk_16",
+    "selectie": ["Jannick","Collin","Wout","Jaimy","Sjoerd","Pelle","Jorra","Tycho","Nord","Dinand","Sietse","Stijn","Xander","Jens","Roef","Chris"],
+    "training_default": 2,
+    "training_overrides": {"Jaimy": 0, "Sjoerd": 0, "Jorra": 0, "Nord": 0, "Stijn": 0, "Xander": 0, "Chris": 0, "Collin": 1, "Wout": 1},
+    "bonus_0": 20, "bonus_1": 10
+  },
+  {
+    "name": "groot_realistisch_22",
+    "selectie": ["Jannick","Collin","Wout","Jaimy","Sjoerd","Pelle","Jorra","Tycho","Nord","Dinand","Sietse","Stijn","Xander","Jens","Roef","Chris","Julius","Tobias","Nicky","Cas","Teun","Abel"],
+    "training_default": 1,
+    "training_overrides": {"Jannick": 2, "Collin": 0, "Wout": 2, "Nord": 0, "Chris": 2, "Julius": 0, "Cas": 2, "Abel": 0},
+    "bonus_0": 20, "bonus_1": 10
+  },
+  {
+    "name": "priority_en_max_minuten",
+    "selectie": ["Jannick","Collin","Wout","Jaimy","Sjoerd","Pelle","Jorra","Tycho","Nord","Dinand","Sietse","Stijn"],
+    "training_default": 2,
+    "training_overrides": {},
+    "priority_overrides": {"Jaimy": true},
+    "max_minutes_overrides": {"Dinand": 40},
+    "bonus_0": 20, "bonus_1": 10
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "name": "opstelling-app-tests",
+  "private": true,
+  "description": "Testgereedschap voor de opstelling-app (niet nodig om de app zelf te draaien)",
+  "devDependencies": {
+    "jsdom": "^24.0.0"
+  }
+}
